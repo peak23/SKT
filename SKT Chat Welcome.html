@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>SKT Chat Welcome</title>
+        <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%B2_%28%E0%B8%8A%E0%B8%A1%E0%B8%9E%E0%B8%B9_-_%E0%B8%9F%E0%B9%89%E0%B8%B2%29.png/800px-%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%B2_%28%E0%B8%8A%E0%B8%A1%E0%B8%9E%E0%B8%B9_-_%E0%B8%9F%E0%B9%89%E0%B8%B2%29.png"/>
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <nav>
+            <font size="7">
+                <nav>
+                    <a href="SKT Chat.html">
+                        <div align="center">
+                            <b style="color: #006EFF;">SKT</b>
+                            <b style="color: #FF437B;">Chat</b>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-door-open"></i>
+                            <b>Welcome</b>
+                            <style>
+                                *{
+                                    color: #000000;
+                                }
+                            </style>
+                        </div>
+                    </a>
+                    <style>
+                        *{
+                            font-family: arial;
+                            font-weight: bold;
+                            font-size: 3rem;
+                        }
+                        body{
+                            background: #FFFFFF;
+                            height: 100vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        nav a{
+                            text-decoration: none;
+                            position: relative;
+                        }
+                        nav a::after{
+                            content: '';
+                            position: absolute;
+                            width: 10%;
+                            opacity: 0;
+                            height: 10px;
+                            background-image: linear-gradient(to right, #006EFF, #FF437B);
+                            bottom: -2.5px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            border-radius: 25px;
+                            transition: .4s;
+                            }
+                            nav a:hover::after{
+                                width: 75%;
+                                opacity: 1;
+                            }
+                    </style>
+                </nav>
+            </font>
+        </nav>
+    </body>
+</html>
